@@ -74,6 +74,6 @@ document.getElementById('height').value = "";
 document.getElementById('weight').value = "";
 document.querySelector('.calculate-after').style.display = 'none';
 document.querySelector('.calculate-before').style.display = 'block';
-
+document.getElementById('result').innerHTML = '顯示結果：';
 
 }

@@ -74,24 +74,39 @@ table {
   padding: 20px;
   font-size: 40px;
   margin-bottom: 20px;
+  color: blue;
 }
 
-/* line 65, ../sass/all.scss */
+/* line 66, ../sass/all.scss */
 .result-title {
   padding: 20px;
 }
 
-/* line 68, ../sass/all.scss */
+/* line 69, ../sass/all.scss */
 #result {
   padding: 30px;
 }
 
-/* line 72, ../sass/all.scss */
+/* line 73, ../sass/all.scss */
 .img-box {
   width: 600px;
   margin: 0 auto;
 }
-/* line 75, ../sass/all.scss */
+/* line 76, ../sass/all.scss */
 .img-box > img {
   width: 100%;
+}
+
+/* line 80, ../sass/all.scss */
+#btn, #btnclear {
+  margin-top: 20px;
+  width: 95px;
+  padding: 4px;
+  background-color: orange;
+  color: white;
+}
+/* line 87, ../sass/all.scss */
+#btn:hover, #btnclear:hover {
+  background-color: #e3ea58;
+  color: #5a2d3f;
 }

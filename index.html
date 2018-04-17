@@ -4,6 +4,7 @@
 	<link type="text/css" rel="stylesheet" href="stylesheets/all.css">
 	<meta charset="UTF-8">
 	<title>BMI calculate</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -14,18 +15,18 @@
 
 	</form>
 	<p>	
-		<table>請輸入身高</table>	
-		<input id="height" type="text" name="" placeholder="身高：170" style="width: 100px">公分。
+		<span>請輸入身高</span>	
+		<input id="height" type="text" name="" placeholder="170" style="width: 100px">公分。
 	</p>
 	<p>
-		<table>請輸入體重</table>	
-		<input id="weight" type="text" name="" placeholder="體重：55" style="width: 100px">公斤。
+		<span>請輸入體重</span>	
+		<input id="weight" type="text" name="" placeholder="55" style="width: 100px">公斤。
 	</p>
 	
 	<button id="btn" onclick="myFunction()" >計算</button>
 	<button id="btnclear" >清除</button>
-	<p class="result-title">顯示結果：</p>
-	<div id="result"></div>
+	<p class="result-title"></p>
+	<div id="result">顯示結果：</div>
 	<div class="img-box">
 		<img class="calculate-after" src="images/calculate1.jpg">
 		<img class="calculate-before" src="images/help.jpg">
@@ -35,7 +36,7 @@
 
 	</div>
 	
-
+	
 	<script src="js/bmi.js"></script>
 </body>
 </html>
