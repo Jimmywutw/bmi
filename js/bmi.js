@@ -26,7 +26,7 @@ document.querySelector('.calculate-after').style.display = 'none';
 	document.querySelector('.calculate-after').src = 'images/calculate' + bmilevel + '.jpg';
 	document.querySelector('.calculate-before').style.display = 'none';
 	
-}else if ( bmi >= 27 && bmi <= 30){
+}else if ( bmi >= 24 && bmi <= 27){
 	console.log('輕度肥胖');
 	var bmilevel = 3;
 	document.getElementById('result').innerHTML = 'BMI:' + (bmi.toFixed(1)) + ' 輕度肥胖，你該減肥了！';
@@ -34,7 +34,7 @@ document.querySelector('.calculate-after').style.display = 'none';
 	document.querySelector('.calculate-after').src = 'images/calculate' + bmilevel + '.jpg';
 	document.querySelector('.calculate-before').style.display = 'none';
 	
-}else if (bmi > 30 && bmi <= 35){
+}else if (bmi > 27 && bmi <= 30){
 	console.log('中度肥胖');
 	var bmilevel = 4;
 	document.getElementById('result').innerHTML = 'BMI:' + (bmi.toFixed(1)) + ' 中度肥胖，你該減肥了！';
@@ -74,6 +74,6 @@ document.getElementById('height').value = "";
 document.getElementById('weight').value = "";
 document.querySelector('.calculate-after').style.display = 'none';
 document.querySelector('.calculate-before').style.display = 'block';
-
+document.getElementById('result').innerHTML = '顯示結果：';
 
 }
