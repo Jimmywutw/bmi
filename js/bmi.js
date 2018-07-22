@@ -39,7 +39,7 @@ document.querySelector('.calculate-after').style.display = 'none';
 	document.querySelector('.calculate-after').style.display = 'inline-block';
 	document.querySelector('.calculate-after').src = 'images/calculate' + bmilevel + '.jpg';
 	document.querySelector('.calculate-before').style.display = 'none';
-}else if (isNaN(weight) || isNaN(height)){
+}else if (isNaN(weight) || isNaN(height)|| !weight || !height){
 	alert('請將身高、體重輸入數字！');
 }else if (bmi > 30){
         console.log('重度肥胖');
